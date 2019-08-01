@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+>
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:padding="10dp"
+                  android:weightSum="6">
+
+        <TextView android:id="@+id/tv_date"
+                  android:layout_width="0dp"
+                  android:layout_weight="1"
+                  android:hint="Date"
+                  style="@style/timingTextViewList"
+                  android:layout_height="wrap_content"/>
+
+        <TextView android:id="@+id/tv_fajar"
+                  android:layout_width="0dp"
+                  android:layout_weight="1"
+                  android:hint="fajar"
+                  android:textColor="@color/colorPrimary"
+                  style="@style/timingTextViewList"
+                  android:layout_height="wrap_content"/>
+
+        <TextView android:id="@+id/tv_zuhur"
+                  android:layout_width="0dp"
+                  android:layout_weight="1"
+                  android:hint="zuhur"
+                  android:textColor="@color/colorPrimary"
+                  style="@style/timingTextViewList"
+                  android:layout_height="wrap_content"/>
+
+        <TextView android:id="@+id/tv_asar"
+                  android:layout_width="0dp"
+                  android:layout_weight="1"
+                  android:hint="asar"
+                  android:textColor="@color/colorPrimary"
+                  style="@style/timingTextViewList"
+                  android:layout_height="wrap_content"/>
+
+        <TextView android:id="@+id/tv_magrib"
+                  android:layout_width="0dp"
+                  android:layout_weight="1"
+                  android:hint="magrib"
+                  android:textColor="@color/colorPrimary"
+                  style="@style/timingTextViewList"
+                  android:layout_height="wrap_content"/>
+
+        <TextView android:id="@+id/tv_isha"
+                  android:layout_width="0dp"
+                  android:layout_weight="1"
+                  android:hint="isha"
+                  android:textColor="@color/colorPrimary"
+                  style="@style/timingTextViewList"
+                  android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</LinearLayout>

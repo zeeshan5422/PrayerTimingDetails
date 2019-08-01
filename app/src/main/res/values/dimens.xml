@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="foam_row_width">50dp</dimen>
+    <dimen name="margin_foam_row">5dp</dimen>
+</resources>
