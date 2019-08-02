@@ -32,6 +32,7 @@ class RoomModule {
         return Room.databaseBuilder(context,
             DB::class.java ,"zues.db")
             .allowMainThreadQueries()
+            .addMigrations(DB.MIGRATION_1_2)
             .build()
     }
 
